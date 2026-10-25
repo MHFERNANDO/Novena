@@ -1,0 +1,39 @@
+:root{--noche:#14233f;--medio:#1d3157;--oro:#e3b04b;--nieve:#f3f6fb;--pino:#5f8f6b;--tinta:#e9eef7;--suave:#aebbd3;--pad:clamp(1rem,4vw,2rem)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;font-size:clamp(16px,1.1vw + 12px,19px)}
+body{font-family:Nunito,system-ui,sans-serif;background:radial-gradient(circle at 50% -10%,#2a4577,var(--noche) 55%) fixed;color:var(--tinta);line-height:1.7;padding-bottom:5rem}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;line-height:1.15}
+.top{position:sticky;top:0;z-index:5;background:rgba(20,35,63,.94);backdrop-filter:blur(8px);padding:.6rem var(--pad) 0;padding-top:max(.6rem,env(safe-area-inset-top));border-bottom:1px solid #ffffff1f;text-align:center}
+.logo{width:1.8rem;vertical-align:middle;margin-right:.4rem}
+.top h1{display:inline;font-size:1.35rem;color:var(--oro)}
+.barra{height:3px;background:#ffffff1f;margin:.5rem 0}
+#progreso{display:block;height:100%;width:0;background:var(--oro);transition:width .4s}
+#menu{display:flex;gap:.4rem;overflow-x:auto;padding:.3rem 0 .7rem;scrollbar-width:none}
+#menu::-webkit-scrollbar{display:none}
+#menu button{flex:none;border:1px solid #ffffff33;background:transparent;color:var(--suave);padding:.3rem .8rem;border-radius:2rem;font:inherit;font-size:.85rem;cursor:pointer}
+#menu button.on{background:var(--oro);color:var(--noche);border-color:var(--oro);font-weight:600}
+main{max-width:46rem;margin:0 auto;padding:var(--pad);outline:none}
+.portada{text-align:center;padding:2rem 0}
+.portada img{width:min(40vw,9rem);animation:brillo 3s ease-in-out infinite alternate}
+@keyframes brillo{to{filter:drop-shadow(0 0 18px var(--oro))}}
+.portada h2{font-size:clamp(2.2rem,8vw,3.6rem);color:var(--nieve);margin:1rem 0 .5rem}
+.portada p{color:var(--suave)}
+.titulo{font-size:clamp(1.9rem,6vw,2.8rem);color:var(--oro);margin-bottom:.2rem}
+.tema{color:var(--suave);font-style:italic;margin-bottom:1.5rem}
+.bloque{border-left:3px solid var(--pino);padding:.2rem 0 .2rem 1rem;margin:1.6rem 0}
+.bloque h3{font-size:1.45rem;color:var(--nieve);margin-bottom:.3rem}
+.bloque p+p{margin-top:.7rem}
+.bloque.canto{border-color:var(--oro);background:#ffffff0d;border-radius:0 .8rem .8rem 0;padding:.8rem 1rem}
+.bloque.canto h3{color:var(--oro);font-size:1.2rem}
+.cita{font-family:"Cormorant Garamond",serif;font-size:1.2rem;color:var(--nieve)}
+.cita small{display:block;font:600 .85rem Nunito;color:var(--oro);margin-top:.3rem}
+.bloque ul{padding-left:1.2rem}
+.bloque li{margin:.5rem 0}
+.coro{font-style:italic;color:var(--oro)}
+.pie{position:fixed;bottom:0;left:0;right:0;display:flex;gap:.6rem;justify-content:center;padding:.7rem var(--pad);padding-bottom:max(.7rem,env(safe-area-inset-bottom));background:rgba(20,35,63,.95);border-top:1px solid #ffffff1f}
+.btn{flex:1;max-width:14rem;padding:.7rem;border-radius:2rem;border:1px solid var(--oro);background:transparent;color:var(--oro);font:600 1rem Nunito;cursor:pointer}
+.btn.principal{background:var(--oro);color:var(--noche)}
+.btn:disabled{opacity:.35}
+button:focus-visible{outline:3px solid var(--nieve);outline-offset:2px}
+@media(min-width:700px){.bloque{padding-left:1.4rem}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}
