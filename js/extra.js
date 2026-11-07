@@ -10,4 +10,3 @@ const LETRAS = {
   "El tamborilero": "El camino que lleva a Belen, <br>Baja hasta el Valle que la nieve cubrio<br>Los pastorcillos quieren ver a su rey<br>Le traen regalos en su humilde zurron<br>Rom Pom Pom Pom, Rom Pom Pom Pom<br>Ya quisiera poner a tus pies<br>Algun presente que te agrade señor<br>Mas tu ya sabes que soy pobre tambien<br>Y no poseo mas que un viejo Tambor<br>Rom Pom Pom Pom, Rom Pom Pom Pom",
   "Burrito sabanero": ""
 };
-
