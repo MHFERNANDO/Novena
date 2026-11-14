@@ -3,7 +3,7 @@ const secciones = [{id: "inicio", nombre: "Inicio"}, {id: "oi", nombre: "Oració
   .concat(DIAS.map((d, i) => ({id: "d" + i, nombre: "Día " + (i + 1)})))
   .concat([{id: "gozos", nombre: "Gozos"}, {id: "of", nombre: "Oración final"}]);
 const $ = s => document.querySelector(s);
-const p = t => t.split("\n").map(x => `<p>${x}</p>`).join("");
+const p = t => (Array.isArray(t) ? t : t.split("\n")).map(x => `<p>${x}</p>`).join("");
 const bloque = (t, c, cls = "") => `<section class="bloque ${cls}"><h3>${t}</h3>${c}</section>`;
 const canto = n => { const t = VILL[n % 4], l = LETRAS[t]; return bloque("Villancico", `<p>Cantemos juntos: <strong>${t}</strong></p>` + (l ? `<p>${l}</p>` : ""), "canto"); };
 const gozos = () => bloque("Gozos", `<p class="coro">${GOZOS.coro}</p>` + p(GOZOS.estrofas.join("\n")));

@@ -10,6 +10,7 @@ const GOZOS = {
 };
 
 const DIAS = [
+
 {tema: "La familia a la luz de la Palabra",
  monicion: "Queridos hermanos, sean bienvenidos. Nos hemos reunido en familia para comenzar esta novena del Niño Viajero. Durante nueve noches caminaremos con Jesús, Palabra del Padre, que se hace uno de nosotros y quiere habitar en nuestras casas. Participemos con alegría, unidos como hermanos, y cantemos.",
  oracion: "Señor Jesús, que naciste en una familia, ilumina la nuestra con tu Palabra. Que esta casa sea un lugar donde se escuche, se perdone y se ame. Amén.",
@@ -65,16 +66,48 @@ const DIAS = [
 
  compromiso: "Durante esta semana, identificaremos a una persona de nuestra familia que habitualmente está pendiente de los demás y haremos algo concreto por ella. Puede ser ayudarle con una responsabilidad, escucharla con atención, compartir un momento juntos o simplemente preguntarle cómo se encuentra. Nuestro compromiso será recordar que quienes nos cuidan también necesitan sentirse cuidados."
 },
+{
+  "tema": "La familia",
+  "monicion": "En esta noche nos reunimos alrededor del pesebre para reflexionar sobre uno de los regalos más grandes que Dios nos ha dado: nuestra familia. Hoy queremos agradecer por nuestros padres, abuelos, hermanos, hijos y por cada persona que forma parte de nuestra historia. Pidamos al Niño Jesús que nos enseñe a vivir con amor, respeto, paciencia y comprensión, y que nos ayude a mantenernos unidos incluso en los momentos difíciles. Aprendamos que la familia es un regalo que debemos cuidar todos los días.",
+  "oracion": "Señor, gracias por el regalo de nuestra familia. Gracias por cada persona que has puesto en nuestro camino, por quienes nos acompañan y por quienes, aunque estén lejos, siguen ocupando un lugar especial en nuestros corazones. Enséñanos a perdonar, a comprender, a respetarnos y a cuidar unos de otros. Danos sabiduría para guiar a nuestros niños con el ejemplo y fortaleza para superar juntos las dificultades. Que nunca falten el amor, la unión y tu presencia en nuestro hogar. Amén.",
+  "vida": "En nuestras familias compartimos algunos de los momentos más importantes de nuestra vida. Allí aprendemos a amar, a respetar, a compartir y también a reconocer nuestros errores. Sin embargo, la convivencia no siempre es sencilla. Existen diferencias, discusiones y situaciones que pueden alejarnos. A veces dejamos pasar oportunidades para abrazar, agradecer o pedir perdón.\n\nTambién debemos reconocer que muchas veces damos por sentado que nuestros padres, abuelos, hermanos y familiares siempre estarán ahí para nosotros. Nos acostumbramos a su presencia, a sus consejos y a sus esfuerzos, sin detenernos a pensar cuánto significan en nuestra vida.\n\nPor eso, esta Navidad es una oportunidad para detenernos, valorar a quienes tenemos cerca y recordar que la familia se construye todos los días con pequeños gestos de amor. No se trata de tener una familia perfecta, sino de aprender a comprendernos, apoyarnos y permanecer unidos a pesar de las dificultades.",
+  "cita": [
+    "Lucas 2, 1-7",
+    "Por aquellos días salió un decreto del emperador Augusto, que mandaba hacer un censo de todo el mundo. Todos iban a inscribirse, cada cual a su ciudad. También José, que era de la casa y familia de David, subió desde la ciudad de Nazaret, en Galilea, a la ciudad de David, llamada Belén, para inscribirse con María, su esposa, que estaba encinta. Mientras estaban allí, le llegó el tiempo del parto, y dio a luz a su hijo primogénito, lo envolvió en pañales y lo acostó en un pesebre, porque no había sitio para ellos en la posada."
+  ],
+  "reflexion": [
+    "Hay momentos en la vida en los que debemos detenernos un instante, mirar a nuestro alrededor y reconocer que tenemos muchas razones para dar gracias a Dios. Una de las más grandes es, sin duda, el regalo de tener una familia.",
+    "Y si hay algo que debemos reconocer, es que ninguna familia es perfecta. En todas existen diferencias, desacuerdos, problemas y momentos difíciles. A veces una palabra puede lastimar, un malentendido puede generar distancia o el orgullo puede impedirnos dar el primer paso para reconciliarnos.",
+    "Pero precisamente ahí es donde debemos recordar las enseñanzas de Jesús: aprender a perdonar, comprender antes que juzgar, ayudar sin esperar nada a cambio y entender que el amor es mucho más importante que cualquier diferencia.",
+    "Una familia unida no es aquella que nunca tiene problemas, sino aquella que, a pesar de las dificultades, encuentra razones para seguir adelante, apoyarse y permanecer unida.",
+    "Y en medio de todo esto están nuestros niños, nuestros hijos y sobrinos, que representan la alegría, la ilusión y la esperanza de nuestras familias.",
+    "Ellos aprenden mucho más de lo que ven que de lo que les decimos. Observan cómo tratamos a nuestros padres, cómo respetamos a nuestros mayores, cómo ayudamos a los demás y cómo resolvemos nuestras diferencias.",
+    "Por eso, tenemos una gran responsabilidad: enseñarles con nuestro ejemplo que la familia es un lugar donde siempre debe existir amor, respeto, comprensión y solidaridad. Que aprendan que los abuelos merecen cariño, que los padres merecen respeto, que los hermanos deben apoyarse y que nunca debemos darle la espalda a alguien que necesita nuestra ayuda.",
+    "Pensemos ahora en el nacimiento del Niño Jesús.",
+    "Dios pudo haber elegido un lugar lleno de riquezas para el nacimiento de su Hijo, pero eligió la humildad de un pesebre. Allí, rodeado del amor de María y José, nació quien vendría a enseñarnos que las cosas verdaderamente importantes no se encuentran en el dinero, en los lujos ni en las apariencias, sino en el amor, la humildad y la bondad de nuestros corazones.",
+    "Ese es el verdadero mensaje de la Navidad.",
+    "Jesús viene a recordarnos que debemos amar más, perdonar más, compartir más y preocuparnos menos por aquello que nos separa.",
+    "Por eso, esta noche, al reunirnos alrededor del pesebre, no debemos pensar solamente en los regalos que recibiremos, en la comida que compartiremos o en las celebraciones que tendremos. Debemos pensar también en las personas que están a nuestro lado y en lo afortunados que somos por tener la oportunidad de compartir con ellas.",
+    "Demos gracias por nuestros padres, por nuestros abuelos, por nuestros hermanos, por nuestros familiares, por nuestros hijos y por cada persona que Dios ha puesto en nuestro camino.",
+    "Agradezcamos por quienes hoy están presentes, pero también recordemos con cariño a quienes, por diferentes circunstancias, no pueden acompañarnos y a quienes ya partieron de este mundo, pero siguen viviendo en nuestros recuerdos.",
+    "Pidamos a Dios que nos conceda salud para seguir reuniéndonos, sabiduría para educar a nuestros hijos, paciencia para comprendernos y humildad para reconocer nuestros errores.",
+    "Que nunca nos falte una razón para acercarnos, una palabra para animarnos, un abrazo para reconciliarnos y una mano para ayudar a quien lo necesite.",
+    "Y, sobre todo, que nunca olvidemos que la familia es un regalo que debemos cuidar todos los días, no solamente en Navidad.",
+    "Porque al final de nuestras vidas, probablemente no recordaremos cuánto dinero ganamos, cuántas cosas compramos o cuántos bienes conseguimos, pero sí recordaremos los abrazos que dimos, las personas que acompañamos, las veces que compartimos y el amor que fuimos capaces de entregar.",
+    "Que esta Navidad nos permita renovar nuestro compromiso de ser mejores hijos, mejores padres, mejores hermanos y mejores seres humanos.",
+    "Y que el Niño Jesús encuentre siempre un lugar en nuestros corazones, porque cuando Dios está presente en nuestras familias, el amor se fortalece, la esperanza renace y la unión se convierte en una bendición.",
+    "Amén."
+  ],
+  "dialogo": [
+    "Si ninguna familia es perfecta, ¿qué deberíamos aprender a aceptar y qué deberíamos esforzarnos por cambiar para convivir mejor?",
+    "¿Estamos enseñando a nuestros niños con nuestras acciones los valores que queremos que aprendan, o solamente se los estamos diciendo?",
+    "¿Cuándo fue la última vez que dejamos a un lado el orgullo para pedir perdón, acercarnos o demostrar cariño a alguien de nuestra familia?",
+    "Si hoy tuviéramos la oportunidad de agradecerle algo a cada persona de nuestra familia, ¿qué le diríamos y por qué?",
+    "¿Qué podemos hacer para que nuestra familia permanezca unida, not solamente durante la Navidad, sino también durante el resto del año?"
+  ],
+  "compromiso": "Esta noche, cada uno de nosotros buscará una manera de demostrar su cariño a un familiar: mediante un abrazo, unas palabras de agradecimiento, una disculpa o un gesto de ayuda. Además, nos comprometemos a cuidar la unión familiar durante todo el año, recordando que el amor se demuestra con nuestras acciones de cada día."
+},
 
-
-{tema: "Una familia en camino",
- monicion: "Esta es la novena del Niño Viajero. Hoy acompañamos a una familia que tuvo que ponerse en camino: José y María rumbo a Belén. Pidamos por todas las familias que hoy viajan, migran o buscan un lugar.",
- oracion: "Señor, tú que quisiste nacer en camino y sin techo, protege a las familias que viajan, a los migrantes y a los que buscan una casa. Y haznos acogedores con todo el que llegue a nuestra puerta. Amén.",
- vida: "Casi todas nuestras familias tienen historias de viajes: abuelos que dejaron el campo, parientes que se fueron a otro país, hijos que estudian lejos. La distancia duele, pero también une cuando hay recuerdo, llamadas y esperanza.",
- cita: ["Lucas 2, 1-7", "Por aquellos días salió un decreto del emperador Augusto, que mandaba hacer un censo de todo el mundo. Todos iban a inscribirse, cada cual a su ciudad. También José, que era de la casa y familia de David, subió desde la ciudad de Nazaret, en Galilea, a la ciudad de David, llamada Belén, para inscribirse con María, su esposa, que estaba encinta. Mientras estaban allí, le llegó el tiempo del parto, y dio a luz a su hijo primogénito, lo envolvió en pañales y lo acostó en un pesebre, porque no había sitio para ellos en la posada."],
- reflexion: "El Dios de Navidad no nace en un palacio, nace en camino. Una familia sencilla, obligada por una orden del poder, viaja días enteros con una mujer a punto de dar a luz. Cuando llegan, no hay sitio. El Hijo de Dios comienza su vida como tantos hijos de familias migrantes: sin cuna, sin casa, dependiendo de la hospitalidad ajena.\nEsto nos interpela. ¿Qué lugar tienen en nuestra mesa los que llegan de lejos? ¿Cuántas veces cerramos la puerta porque «no hay espacio», cuando en realidad lo que falta es voluntad? El pesebre no es un adorno bonito: es una invitación a abrir nuestro hogar y nuestro corazón.\nLos que viajan, los que están lejos y los que esperan a alguien también son parte de la familia. Recordarlos, rezar por ellos y mantenernos en contacto es una manera de seguir juntos aunque haya kilómetros de por medio.",
- dialogo: ["¿Qué historias de viaje o de migración hay en nuestra familia? ¿Qué aprendimos de ellas?", "Si hoy llegara a nuestra puerta una familia sin lugar donde dormir, ¿qué haríamos realmente? ¿Qué nos frena y qué nos ayudaría?", "¿Cómo podemos mantener unidos a los que están lejos? ¿Qué cosas ayudan y cuáles nos alejan?"],
- compromiso: "Llamar o escribir hoy a un familiar que esté lejos, y rezar en casa por las familias migrantes."},
 
 {tema: "Una familia que sirve",
  monicion: "Esta noche contemplamos a María que sale deprisa a ayudar a su prima Isabel. Aprendamos que la fe se hace servicio y que cuando servimos, el gozo se multiplica.",
